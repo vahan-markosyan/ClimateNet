@@ -10,4 +10,6 @@ class BME280:
     def read_bme_data(self):
         return self.bme280.temperature, self.bme280.relative_humidity, self.bme280.pressure
 
+print(read_bme_data)
+
 
