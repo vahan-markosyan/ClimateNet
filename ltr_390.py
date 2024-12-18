@@ -10,4 +10,6 @@ class LTR390:
     def read_ltr_data(self):
         return self.ltr.uvi, self.ltr.light
 
+print(read_ltr_data())
+
 
